@@ -1,0 +1,23 @@
+{
+  "name": "lions_ex",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:07": "tsx exercicio-07/src/server.ts",
+    "dev:08": "tsx exercicio-08/src/server.ts",
+    "dev:09": "tsx exercicio-09/src/server.ts",
+    "dev:10": "tsx exercicio-10/src/server.ts",
+    "dev:11": "tsx exercicio-11/src/server.ts",
+    "dev:12": "tsx exercicio-12/src/server.ts",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^22.15.30",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
